@@ -53,13 +53,13 @@
           </ul>
         </section>
         <section class="reason reason-second">
+          <div class="reason-img">
+              <img src="img/sedona-bridge.jpg" width="450" height="344" alt="Мост дъявола"></img>
+          </div>
           <div class=reason-for-visit"">
               <h2>Там есть мост дъявола</h2>
               <span class="reason-number">&mdash;№2&mdash;</span>
               <p class="reason-description">Да, по нему можно пройти! Если, конечно, вы осмелитесь</p>
-          </div>
-          <div class="reason-img">
-              <img src="img/sedona-bridge.jpg" width="450" height="344" alt="Мост дъявола"></img>
           </div>
         </section>
         <section class="third-fourth-fifth-reasons">
@@ -80,51 +80,41 @@
           </div>
         </section>
         <section class="searching-title">
-          <h2>Поиск гостиницы в Седоне</h2>
           <b>Заинтересовались?</b>
           <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+          <a class="searching" href="#">Поиск гостиницы в Седоне</a>
         </section>
         <section class="searching-form">
-          <form class="searching-form" action="" method="get">
-            <p class="searching-item">
-              <label>
-                Дата заезда:
-                <input type="text" name="datein" value="24 апреля 2016" required>
-              </label>
-            </p>
-            <p class="searching-item">
-              <label>
-                Дата выезда:
-                <input type="text" name="dateout" value="4 июля 2017" requires>
-              </label>
-            </p>
-            <p class="searching-item">
-              <label>
-                Взрослые:
-                <input type="text" name="fullage" value="" placeholder="2">
-              </label>
-            </p>
-            <p class="searching-item">
-              <label>
-                Дети:
-                <input type="text" name="children" value="" placeholder="0">
-              </label>
-            </p>
+          <form class="searching-form" action="https://echo.htmlacademy.ru" method="get">
+            <div class="searching-item">
+              <label for="datein">Дата заезда:</label>
+                <input type="text" id="datein" value="24 апреля 2016" required>
+            </div>
+            <div class="searching-item">
+              <label for="dateout">Дата выезда:</label>
+                <input type="text" id="dateout" value="4 июля 2017" requires>
+            </div>
+            <div class="searching-item">
+              <label for="fullage">Взрослые:</label>
+                <input type="text" id="fullage" value="" placeholder="2">
+            </div>
+            <div class="searching-item">
+              <label for="children">Дети:</label>
+                <input type="text" id="children" value="" placeholder="0">
+            </div>
             <button class="button" type="submit">Найти</button>
           </form>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.18050598329!2d-111.83015803451673!3d34.854373381021595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1502718286407" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
         <footer class="main-footer">
           <div class="hashtag"><a href="#">#visitsedona</a></div>
-          <div class="footer-social">
-          <ul class="social-buttons">
+          <ul class="footer-social-buttons">
             <li><a class="social-button" href="#"></a>Twitter</li>
             <li><a class="social-button" href="#"></a>Facebook</li>
             <li><a class="social-button" href="#"></a>Youtube</li>
           </ul>
-          </div>
           <div class="footer-copyright">
-            <span>Written by:</span><a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+            <span>Website by</span><a class="button" href="https://htmlacademy.ru">HTML Academy</a>
           </div>
         </footer>
     </main>
