@@ -1,0 +1,30 @@
+body{
+  line-height: 26px;
+  font-family: "PTSans";
+  font-size:14px;
+}
+h2{
+  text-transform: uppercase;
+  font-size:21px;
+  text-align: center;
+}
+.description h2{
+  line-height: 26px;
+  font-family: "PTSans";
+  font-weight: bold;
+  text-align: center;
+}
+.reason-for-visit h2{
+  line-height: 21px;
+  font-family: "Myriad Pro";
+  font-weight: regular;
+}
+
+.description p{
+  text-transform: uppercase;
+  font-size:14px;
+  line-height: 26px;
+  font-family: "PTSans";
+  font-weight: bold;
+  text-align: center;
+}
