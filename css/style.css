@@ -1,6 +1,6 @@
 body{
   line-height: 26px;
-  font-family: "PTSans";
+  font-family: "PTSans",Arial,sans-serif;
   font-size:14px;
 }
 h2{
@@ -10,13 +10,12 @@ h2{
 }
 .description h2{
   line-height: 26px;
-  font-family: "PTSans";
   font-weight: bold;
   text-align: center;
 }
 .reason-for-visit h2{
   line-height: 21px;
-  font-family: "Myriad Pro";
+  font-family: "Myriad Pro",Arial,sans-serif;
   font-weight: regular;
 }
 
@@ -24,7 +23,6 @@ h2{
   text-transform: uppercase;
   font-size:14px;
   line-height: 26px;
-  font-family: "PTSans";
   font-weight: bold;
   text-align: center;
 }
